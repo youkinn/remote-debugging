@@ -1,11 +1,12 @@
 # remote-debugging
 # 移动端远程调试
 
-### http://blog.csdn.net/freshlover/article/details/42528643
+主要介绍已经发布到线上的普通h5页面、内嵌到app中的h5页面、内嵌到微信的h5页面的调试方法。
 
-## 准备工作
+
+## Android准备工作
+- 一条USB数据线，连接电脑与移动设备
 - 开发环境安卓桌面版Chrome32+
-- 一条USB数据线，连接电脑与移动设备，安装相应机型的USB驱动。驱动程序下载地址：http://developer.android.com/tools/extras/oem-usb.html
 - 如果是调试网页，移动设备需要安装**Chrome forAndroid** ，且安卓系统须为Android 4.0+
 
 
@@ -36,10 +37,32 @@
 
 第五步：点击inspect，打开Developer Tools。如下图：
 
+![0_1478857311254_ss11-2.png](http://angular.angular-china.org/6fecd812-63c0-483a-aace-7d2d949a7ede.png)
 
 ![1_1478857311255_ss111-1.png](http://angular.angular-china.org/35ec8075-2617-4f17-848c-ba9d1485567c.png)
 
-![0_1478857311254_ss11-2.png](http://angular.angular-china.org/6fecd812-63c0-483a-aace-7d2d949a7ede.png)
+
+## IOS准备工作
+- 一条USB数据线，连接电脑与移动设备，手机Safari浏览器
+
+## 一些设置
+第一步：打开手机上的Web检测器
+
+→通过 设置 > Safari > 高级 >Web检查器 打开，如下图：
+
+![0_1479101333824_1.png](http://angular.angular-china.org/33f90ce7-38c4-4edb-9a3b-a0126af0e4e5.png)
+
+第二步. 启用【开发】菜单(mac电脑的Safari浏览器)
+→ 打开Safari浏览器(PC端)，通过Safari > 偏好设置 > 高级 > 勾选 在菜单栏中显示"开发"菜单，如下图：
+
+![0_1479095944963_2.png](http://angular.angular-china.org/520b058d-7411-4f11-a767-214387cd13c3.png)
+![0_1479095947868_3.png](http://angular.angular-china.org/f2fc145a-8813-4008-89a8-21001418bbfb.png)
+
+第三步. 在手机Safari浏览器上打开要调试的页面后，链接好数据线。打开开发菜单，选择要调试的页面。如下图：
+
+![0_1479095951138_4.png](http://angular.angular-china.org/d41123e1-9952-4f26-a3db-88f586088212.png)
+
+![0_1479095954646_5.png](http://angular.angular-china.org/7c5476cb-72a5-437a-a601-19dfc1fdcb4f.png) 
 
 
 ## APP WebView调试
@@ -65,20 +88,9 @@
 
 ![1_1478857328838_weChat-3.png](http://angular.angular-china.org/762e98c6-5c75-4656-96c4-dc1e4ede905e.png)
 
-当然，也支持远程调试。使用方法甚至更简单，直接上图：
-![0_1478857328838_weChat-2.png](http://angular.angular-china.org/0bdbefe9-cb52-4659-99b5-d631e4a41563.png)
-
-![2_1478857337386_weChat-6.png](http://angular.angular-china.org/0d736ccb-40f5-4a9b-ac86-6c1f6ba98ee0.png)
-
-![1_1478857337386_weChat-5.png](http://angular.angular-china.org/11642254-41bd-4a35-bf68-37deb08129d1.png)
-
-
-## Node调试
-...
 
 
 
-
-
-
-
+## 参考资料
+### http://blog.csdn.net/freshlover/article/details/42528643
+`
