@@ -85,8 +85,6 @@
 
 绑定后，打开微信开发者工具，输入网址即可。最终的调试界面，如下：
 
-![0_1478857320683_ss111-4.png](http://angular.angular-china.org/ed99c560-c0b0-4280-9f46-42734de3395b.png)
-
 ![1_1478857328838_weChat-3.png](http://angular.angular-china.org/762e98c6-5c75-4656-96c4-dc1e4ede905e.png)
 
 
