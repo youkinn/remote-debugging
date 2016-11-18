@@ -42,6 +42,15 @@
 ![1_1478857311255_ss111-1.png](http://angular.angular-china.org/35ec8075-2617-4f17-848c-ba9d1485567c.png)
 
 
+### ！！通过控制台启动的远程调试模式，直接上图：
+
+![0_1479447404001_111.png](http://angular.angular-china.org/9d50957a-fabb-4dd4-86bd-6ebd1feb8284.png) 
+
+![1_1479447404002_222.png](http://angular.angular-china.org/21380d1b-233a-4148-8214-0df22316eac3.png)
+
+![0_1479447639957_333.png](http://angular.angular-china.org/2dcf8971-355a-4ea8-8d59-e1178a4f41e8.png) 
+
+
 ## IOS准备工作
 - 一条USB数据线，连接电脑与移动设备，手机Safari浏览器
 
@@ -91,5 +100,6 @@
 
 
 ## 参考资料
+### https://developers.google.com/web/tools/chrome-devtools/remote-debugging/?utm_source=dcc&utm_medium=redirect&utm_campaign=2016q3
 ### http://blog.csdn.net/freshlover/article/details/42528643
 `
